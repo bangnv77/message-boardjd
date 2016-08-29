@@ -1,5 +1,5 @@
 {
-  "quesions" : {
+  "questions" : {
     "q1" : {
       "body" : "How do I program?",
       "note" : "Can U help me?",
@@ -12,7 +12,7 @@
     "q2" : {
       "body" : "What is the speed of light?",
       "note" : "Science",
-      "author" : "Jim",
+      "author" : "Jim Smith",
       "answers" : {
         "a2" : true,
         "a3" : true,
