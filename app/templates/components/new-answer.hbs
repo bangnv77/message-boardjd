@@ -3,10 +3,6 @@
   <div>
     <form>
       <div class="form-group">
-        <label for="author">Username:</label>
-        {{input value=author id="author"}}
-      </div>
-      <div class="form-group">
         <label for="body">Answer:</label>
         {{input value=body id="body"}}
       </div>
@@ -14,5 +10,5 @@
     </form>
   </div>
 {{else}}
-  <button {{action 'showAnswerForm'}}>Answer the question</button>  
+  <button {{action 'showAnswerForm'}}>Answer the question</button>
 {{/if}}
